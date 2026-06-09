@@ -24,7 +24,13 @@
 </h3>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yuyuezhou0806&theme=onedark&no-frame=true&no-bg=true&column=7&rank=-?" alt="trophy" />
+  <img src="https://img.shields.io/badge/Commits-555555?style=flat-square&logo=git&logoColor=c0c0c0&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Repos-555555?style=flat-square&logo=github&logoColor=c0c0c0&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Projects-555555?style=flat-square&logo=react&logoColor=c0c0c0&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/AI%2FAgent-555555?style=flat-square&logo=openai&logoColor=c0c0c0&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Automation-555555?style=flat-square&logo=robotframework&logoColor=c0c0c0&labelColor=0d1117" />
+  <br/>
+  <font color="#6b7280" size="2">Building in public · Shipping code · Learning by doing</font>
 </p>
 
 <br />
@@ -90,8 +96,13 @@
 
 <p align="center">
   <a href="https://github.com/yuyuezhou0806/idi-defects">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=yuyuezhou0806&repo=idi-defects&bg_color=0d1117&title_color=e0e0e0&text_color=9ca3af&icon_color=6b7280&border_color=30363d&hide_border=false" width="48%" />
+    <img src="https://img.shields.io/badge/idi--defects-0d1117?style=flat-square&logo=github&logoColor=9ca3af&labelColor=0d1117" />
   </a>
+  <img src="https://img.shields.io/badge/Python-555555?style=flat-square&logo=python&logoColor=c0c0c0&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/FastAPI-555555?style=flat-square&logo=fastapi&logoColor=c0c0c0&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Vue.js-555555?style=flat-square&logo=vue.js&logoColor=c0c0c0&labelColor=0d1117" />
+  <br/>
+  <font color="#6b7280" size="2">IDI 质量险缺陷清单工具集 · 599 条结构化数据 · 搜索 + 报告</font>
 </p>
 
 <br />
