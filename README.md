@@ -66,6 +66,14 @@ flowchart LR
 
 ## 03 / 代表作品
 
+### Inspection Agent
+
+面向工程检测业务的多 Agent 系统，把专业知识检索、结构化项目数据、文档生成和 Windows 自动化串成完整工作流。
+
+`FLAGSHIP` `ONLINE` `MAINTAINED 2026.06` `LangGraph` `FastAPI` `Next.js`
+
+[在线体验](http://1.15.170.85/agent/) · [查看源码](https://github.com/yuyuezhou0806/-/tree/main/inspection_agent)
+
 ### IDI Defects
 
 将 599 条工程质量险缺陷记录整理为可检索的质量风险知识系统，用于缺陷查询、分类浏览和检测风险参考。
