@@ -70,25 +70,25 @@ flowchart LR
 
 将 599 条工程质量险缺陷记录整理为可检索的质量风险知识系统，用于缺陷查询、分类浏览和检测风险参考。
 
-`Python` `FastAPI` `Structured Data`
+`ONLINE` `MAINTAINED 2026.06` `Python` `FastAPI` `Structured Data`
 
-[查看仓库](https://github.com/yuyuezhou0806/idi-defects)
+[在线使用](http://1.15.170.85/idi/) · [查看公开数据仓库](https://github.com/yuyuezhou0806/idi-defects)
 
 ### Contract Automation Suite
 
 从截图和文档中识别项目字段，完成合同信息提取、模板填充和批量文档生成。
 
-`OCR` `Python` `Document Automation`
+`PROTOTYPE` `OCR` `Python` `Document Automation`
 
-[查看源码](https://github.com/yuyuezhou0806/-/tree/main/contract_flow)
+[查看历史源码](https://github.com/yuyuezhou0806/-/tree/main/contract_flow)
 
 ### Settlement Forms
 
 把 Excel 中的结算数据批量写入标准 Word 模板，减少重复录入与格式错误。
 
-`Excel` `Word` `Batch Processing`
+`ONLINE` `MAINTAINED 2026.06` `Excel` `Word` `Batch Processing`
 
-[查看源码](https://github.com/yuyuezhou0806/-/tree/main/settlement_forms)
+[在线使用](http://1.15.170.85/settlement/) · [查看源码](https://github.com/yuyuezhou0806/-/tree/main/settlement_forms)
 
 ---
 
