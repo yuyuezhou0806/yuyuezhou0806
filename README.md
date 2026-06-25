@@ -1,108 +1,131 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yuyuezhou0806/yuyuezhou0806/main/banner.svg" width="100%" alt="Yuyue Zhou" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yuyuezhou0806/yuyuezhou0806/main/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yuyuezhou0806/yuyuezhou0806/main/banner-light.svg">
+  <img src="https://raw.githubusercontent.com/yuyuezhou0806/yuyuezhou0806/main/banner.svg" width="100%" alt="YuYue Zhou — AI systems for engineering work">
+</picture>
 
-<h1 align="center">YuYue Zhou</h1>
+## 把工程业务，做成真正能运行的软件
 
-<p align="center">
-  <strong>AI Agent builder · Engineering automation · Full-stack developer</strong>
-</p>
+我关注的不是让 AI 多说几句话，而是让它理解业务、调用工具、经过确认，并把结果可靠地落到真实工作流程里。
 
-<p align="center">
-  I build practical AI systems for engineering inspection and turn repetitive office workflows into reliable software.
-</p>
+目前主要在做：
 
-<p align="center">
-  <a href="http://1.15.170.85/agent/">
-    <img src="https://img.shields.io/badge/Live_Demo-Inspection_Agent-00A8E8?style=for-the-badge" alt="Inspection Agent demo" />
-  </a>
-  <a href="https://github.com/yuyuezhou0806">
-    <img src="https://img.shields.io/badge/GitHub-yuyuezhou0806-181717?style=for-the-badge&logo=github" alt="GitHub profile" />
-  </a>
+- 工程检测领域的 AI Agent 与知识系统
+- Excel、PDF、OCR 和浏览器业务自动化
+- Python / FastAPI / Next.js 全栈产品
+- 可审计、可确认、可回退的人机协作流程
+
+<p>
+  <a href="http://1.15.170.85/agent/"><img src="https://img.shields.io/badge/OPEN_LIVE_SYSTEM-087F9F?style=for-the-badge" alt="Open live system"></a>
+  <a href="https://github.com/yuyuezhou0806/idi-defects"><img src="https://img.shields.io/badge/VIEW_IDI_DEFECTS-17242C?style=for-the-badge&logo=github" alt="View IDI Defects"></a>
 </p>
 
 ---
 
-## What I Build
+## 01 / 当前主项目
 
-- **Domain AI agents** that combine RAG, structured business data, specialized tools and multi-agent routing.
-- **Business automation** for Excel, PDF, OCR, browser operations and approval workflows.
-- **Full-stack products** built with Python, FastAPI, Next.js, React and Vue.
-- **Playable experiments** with Unity and C# when work needs a little more imagination.
+### 检测行业智能 Agent
 
-## Featured Work
+一个面向工程检测业务的多 Agent 系统。它不仅回答问题，也能连接结构化项目数据、专业知识库和本地自动化执行器。
 
-### Inspection Agent
+| 系统能力 | 实现 |
+|---|---|
+| 专业问答 | 工程规范、检测周期、单价、缺陷风险检索 |
+| 多 Agent | 报价、知识、通用业务三个专业 Agent 路由 |
+| 业务工具 | 项目查询、图片分析、报告判读、合同生成等 11 个工具 |
+| 自动化 | 自然语言创建工期延期和工作量汇报任务 |
+| 安全控制 | 正式提交二次确认、用户认证、审计日志、失败记录 |
+| 运行架构 | Linux 服务端派发任务，Windows 执行器运行 Selenium |
 
-An engineering-inspection assistant built around real business workflows.
+```mermaid
+flowchart LR
+    A["自然语言 + Excel / PDF"] --> B["Agent 识别意图"]
+    B --> C["参数校验"]
+    C --> D{"是否正式提交"}
+    D -->|"试运行"| E["任务队列"]
+    D -->|"正式提交"| F["人工二次确认"]
+    F --> E
+    E --> G["Windows 本地执行器"]
+    G --> H["BPM / Selenium"]
+    H --> I["日志、截图、执行结果"]
+```
 
-- Multi-agent routing for pricing, standards, project queries and general tasks
-- RAG over engineering standards, service manuals and structured project data
-- Image analysis, report review and contract generation
-- Natural-language dispatch of Windows Selenium automation jobs
-- FastAPI backend, Next.js frontend, authentication, audit logs and task confirmation
+[在线体验](http://1.15.170.85/agent/) · [查看项目源码](https://github.com/yuyuezhou0806/-/tree/main/inspection_agent)
 
-[Open live demo](http://1.15.170.85/agent/) · [View source](https://github.com/yuyuezhou0806/-/tree/main/inspection_agent)
+---
+
+## 02 / 用数字说明
+
+| `599` | `3` | `11` | `2` |
+|:---:|:---:|:---:|:---:|
+| 结构化工程缺陷记录 | 专业 Agent | Agent 业务工具 | 已接入 BPM 自动化流程 |
+
+这些数字不是演示用占位符，而是当前系统已经连接的业务能力。
+
+---
+
+## 03 / 代表作品
 
 ### IDI Defects
 
-A searchable quality-risk knowledge system built from 599 structured engineering defect records.
+将 599 条工程质量险缺陷记录整理为可检索的质量风险知识系统，用于缺陷查询、分类浏览和检测风险参考。
 
-- Fast search and categorized defect browsing
-- Internal reporting and risk-reference workflows
-- Python, FastAPI and web UI
+`Python` `FastAPI` `Structured Data`
 
-[View repository](https://github.com/yuyuezhou0806/idi-defects)
+[查看仓库](https://github.com/yuyuezhou0806/idi-defects)
 
 ### Contract Automation Suite
 
-OCR-assisted document automation for extracting project information, filling templates and producing batches of business documents.
+从截图和文档中识别项目字段，完成合同信息提取、模板填充和批量文档生成。
 
-[View source](https://github.com/yuyuezhou0806/-/tree/main/contract_flow)
+`OCR` `Python` `Document Automation`
+
+[查看源码](https://github.com/yuyuezhou0806/-/tree/main/contract_flow)
 
 ### Settlement Forms
 
-An Excel-to-Word workflow that converts structured settlement data into standardized review documents.
+把 Excel 中的结算数据批量写入标准 Word 模板，减少重复录入与格式错误。
 
-[View source](https://github.com/yuyuezhou0806/-/tree/main/settlement_forms)
+`Excel` `Word` `Batch Processing`
 
-## Current Focus
+[查看源码](https://github.com/yuyuezhou0806/-/tree/main/settlement_forms)
+
+---
+
+## 04 / 我的技术取向
 
 ```text
-Natural language
-      ↓
-Agent routing and validation
-      ↓
-Domain tools / RAG / structured data
-      ↓
-Human confirmation
-      ↓
-Local automation and auditable results
+让模型负责理解意图
+让代码负责确定性执行
+让人保留最终决定权
+让系统记录完整过程
 ```
 
-I am especially interested in the boundary between AI reasoning and deterministic automation: letting the model understand intent while keeping critical business actions validated, traceable and reversible.
+我尤其在意 AI 推理与传统软件工程之间的边界：模型可以灵活，但业务动作必须明确、可验证、可追踪。
 
-## Toolbox
+**主要工具**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,fastapi,typescript,nextjs,react,vue,sqlite,docker,git,github,unity,cs&perline=12" alt="Technology stack" />
-</p>
+`Python` · `FastAPI` · `LangGraph` · `RAG` · `Chroma` · `Selenium`
 
-`LangGraph` · `RAG` · `Chroma` · `Selenium` · `OpenAI-compatible APIs` · `OCR` · `Excel/Word/PDF automation`
+`TypeScript` · `Next.js` · `React` · `Vue` · `SQLite` · `Docker`
 
-## GitHub Activity
+`Excel / Word / PDF Automation` · `OCR` · `Unity / C#`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yuyuezhou0806&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuyuezhou0806&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="165" alt="Top languages" />
-</p>
+---
+
+## 05 / Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yuyuezhou0806/yuyuezhou0806/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yuyuezhou0806&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="160" alt="GitHub stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yuyuezhou0806&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="160" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yuyuezhou0806/yuyuezhou0806/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution graph">
 </p>
 
 ---
 
 <p align="center">
-  Building useful systems, one stubborn workflow at a time.
+  <sub>Shanghai · AI agents · Engineering automation · Building useful systems</sub>
 </p>
