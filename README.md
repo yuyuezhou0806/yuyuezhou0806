@@ -88,7 +88,7 @@ flowchart LR
 
 `PROTOTYPE` `OCR` `Python` `Document Automation`
 
-[查看历史源码](https://github.com/yuyuezhou0806/-/tree/main/contract_flow)
+[查看独立仓库](https://github.com/yuyuezhou0806/contract-automation-suite)
 
 ### Settlement Forms
 
@@ -96,7 +96,7 @@ flowchart LR
 
 `ONLINE` `MAINTAINED 2026.06` `Excel` `Word` `Batch Processing`
 
-[在线使用](http://1.15.170.85/settlement/) · [查看源码](https://github.com/yuyuezhou0806/-/tree/main/settlement_forms)
+[在线使用](http://1.15.170.85/settlement/) · [查看独立仓库](https://github.com/yuyuezhou0806/settlement-forms)
 
 ---
 
